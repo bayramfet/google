@@ -1,0 +1,68 @@
+*{
+margin: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+}
+
+body{
+
+}
+
+.header-left{
+    float: left;
+    padding:1rem 1rem 0 1rem;
+
+}
+
+.header-right{
+    float: right;
+    padding:1rem 1rem 0 1rem  ;
+
+}
+ul li{
+    /* ## display inline block yan yana gfetiriyor */
+    display: inline-block;
+    /* background-color: yellow; */
+
+
+}
+a{
+    /* #alt cizgileri siler */
+    text-decoration:none ;
+    color: black;
+    padding: 0.5rem;
+}
+.header button{
+    background-color:#4285f4 ;
+    color: white;
+    border: none;
+    /*#bordernonecercevelergidiyor*/width: 4.5rem;
+    height: 2rem;
+    font-weight: 700;
+    border-radius:2px ;
+    
+}
+.clear{
+    clear: both;
+
+}
+main{
+    text-align: center;
+}
+.google-logo{
+   margin-top: 6rem;
+   width: 272px;
+}
+.search-bar{
+    margin: 2rem;
+    margin: auto;
+   
+}
+.main-button-div{
+    
+}
+
+p{
+    text-align: center;
+}
